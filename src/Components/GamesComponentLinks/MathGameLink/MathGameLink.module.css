@@ -1,0 +1,21 @@
+.mathBackground {
+  width: 250px;
+  height: 400px;
+}
+.name {
+  color: rgb(250, 243, 243);
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 170%;
+  transition: 0.5s;
+}
+.links {
+  text-decoration: none;
+  cursor: pointer;
+}
+.name:hover {
+  color: rgb(207, 162, 79);
+}
+.mathBackground:hover ~ .name {
+  color: rgb(207, 162, 79);
+}

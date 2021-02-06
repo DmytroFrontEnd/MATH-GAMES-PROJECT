@@ -1,0 +1,235 @@
+.firstScreen {
+  display: flex;
+  justify-content: space-between;
+}
+.block1 {
+  height: 30%;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: grid;
+  grid-area: a;
+}
+.block2 {
+  margin-right: 13%;
+  margin-top: 10%;
+  line-height: 8rem;
+  display: grid;
+  grid-area: b;
+}
+.img {
+  width: 170%;
+  filter: contrast(90%);
+}
+.text {
+  color: rgb(250, 243, 243);
+  font-family: "Poppins";
+  font-size: 300%;
+}
+.btn {
+  color: rgb(250, 243, 243);
+  font-family: "Poppins";
+  text-decoration: none;
+  font-size: 2.5rem;
+  transition: 0.5s;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.btn:hover {
+  color: rgb(207, 162, 79);
+}
+.number1,
+.number2,
+.number3,
+.number4,
+.number5,
+.number6,
+.number7,
+.number8,
+.number9,
+.number10 {
+  color: rgb(250, 243, 243);
+  position: absolute;
+  font-family: "Poppins";
+  animation-name: animatedNumbers;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  opacity: 0;
+  pointer-events: none;
+}
+.number1 {
+  margin-left: 0;
+}
+.number2 {
+  margin-left: 5%;
+  animation-delay: 0.5s;
+}
+.number3 {
+  margin-left: 11%;
+  animation-delay: 1s;
+}
+.number4 {
+  margin-left: 3%;
+  animation-delay: 1.5;
+}
+.number5 {
+  margin-left: 16%;
+  animation-delay: 0.9s;
+}
+.number6 {
+  margin-left: 18%;
+  animation-delay: 2s;
+}
+.number7 {
+  margin-left: 13%;
+  animation-delay: 0.3s;
+}
+.number8 {
+  margin-left: 23%;
+  animation-delay: 1s;
+}
+.number9 {
+  margin-left: 26%;
+  animation-delay: 0.1s;
+}
+.number10 {
+  margin-left: 28%;
+  animation-delay: 2.1s;
+}
+
+@media screen and (max-width: 700px) {
+  .firstScreen {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b";
+  }
+  .block1 {
+    height: 30%;
+    width: 20%;
+    margin: 3% auto;
+  }
+  .text {
+    font-size: 10%;
+    text-align: center;
+  }
+  .btn {
+    text-align: center;
+    font-size: 190%;
+  }
+  .number7 {
+    margin-left: 20%;
+    animation-delay: 0.3s;
+  }
+  .number8 {
+    margin-left: 40%;
+    animation-delay: 1s;
+  }
+  .number9 {
+    margin-left: 60%;
+    animation-delay: 0.1s;
+  }
+  .number10 {
+    margin-left: 50%;
+    animation-delay: 2.1s;
+  }
+  .number1 {
+    margin-left: 9%;
+  }
+  .number2 {
+    margin-left: 21%;
+    animation-delay: 0.5s;
+  }
+  .number3 {
+    margin-left: 53%;
+    animation-delay: 1s;
+  }
+  .number4 {
+    margin-left: 60%;
+    animation-delay: 1.5;
+  }
+  .number5 {
+    margin-left: 30%;
+    animation-delay: 0.9s;
+  }
+  .number6 {
+    margin-left: 41%;
+    animation-delay: 2s;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .firstScreen {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b";
+  }
+  .block1 {
+    height: 50%;
+    width: 40%;
+    margin-left: 15%;
+  }
+  .block2 {
+    margin: 3% auto;
+  }
+  .text {
+    font-size: 170%;
+    text-align: center;
+  }
+  .btn {
+    text-align: center;
+  }
+  .number7 {
+    margin-left: 20%;
+    animation-delay: 0.3s;
+  }
+  .number8 {
+    margin-left: 40%;
+    animation-delay: 1s;
+  }
+  .number9 {
+    margin-left: 7%;
+    animation-delay: 0.1s;
+  }
+  .number10 {
+    margin-left: 45%;
+    animation-delay: 2.1s;
+  }
+  .number1 {
+    margin-left: 9%;
+  }
+  .number2 {
+    margin-left: 21%;
+    animation-delay: 0.5s;
+  }
+  .number3 {
+    margin-left: 28%;
+    animation-delay: 1s;
+  }
+  .number4 {
+    margin-left: 18%;
+    animation-delay: 1.5;
+  }
+  .number5 {
+    margin-left: 30%;
+    animation-delay: 0.9s;
+  }
+  .number6 {
+    margin-left: 41%;
+    animation-delay: 2s;
+  }
+}
+
+@keyframes animatedNumbers {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    line-height: 25px;
+    opacity: 0;
+  }
+}

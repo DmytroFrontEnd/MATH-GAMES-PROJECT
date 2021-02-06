@@ -1,0 +1,34 @@
+.games {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+.choose {
+  color: rgb(250, 243, 243);
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 14%;
+  letter-spacing: 0.2rem;
+  padding: 4%;
+  display: grid;
+  grid-area: c;
+}
+.mathGame {
+  display: grid;
+  grid-area: a;
+  box-sizing: border-box;
+}
+.quizGame {
+  display: grid;
+  grid-area: b;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  .games {
+    display: grid;
+    grid-template-areas:
+      "c"
+      "a"
+      "b ";
+  }
+}
