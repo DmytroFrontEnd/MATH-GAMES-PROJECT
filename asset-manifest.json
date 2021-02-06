@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MATH-GAMES-PROJECT/static/css/main.61af356c.chunk.css",
+    "main.js": "/MATH-GAMES-PROJECT/static/js/main.62400805.chunk.js",
+    "main.js.map": "/MATH-GAMES-PROJECT/static/js/main.62400805.chunk.js.map",
+    "runtime-main.js": "/MATH-GAMES-PROJECT/static/js/runtime-main.2a5c206c.js",
+    "runtime-main.js.map": "/MATH-GAMES-PROJECT/static/js/runtime-main.2a5c206c.js.map",
+    "static/js/2.294bc83c.chunk.js": "/MATH-GAMES-PROJECT/static/js/2.294bc83c.chunk.js",
+    "static/js/2.294bc83c.chunk.js.map": "/MATH-GAMES-PROJECT/static/js/2.294bc83c.chunk.js.map",
+    "static/js/3.73bd0593.chunk.js": "/MATH-GAMES-PROJECT/static/js/3.73bd0593.chunk.js",
+    "static/js/3.73bd0593.chunk.js.map": "/MATH-GAMES-PROJECT/static/js/3.73bd0593.chunk.js.map",
+    "index.html": "/MATH-GAMES-PROJECT/index.html",
+    "static/css/main.61af356c.chunk.css.map": "/MATH-GAMES-PROJECT/static/css/main.61af356c.chunk.css.map",
+    "static/js/2.294bc83c.chunk.js.LICENSE.txt": "/MATH-GAMES-PROJECT/static/js/2.294bc83c.chunk.js.LICENSE.txt",
+    "static/media/background_image.62abc192.svg": "/MATH-GAMES-PROJECT/static/media/background_image.62abc192.svg",
+    "static/media/math_background.34c3f679.svg": "/MATH-GAMES-PROJECT/static/media/math_background.34c3f679.svg",
+    "static/media/quiz_background.afa68be9.svg": "/MATH-GAMES-PROJECT/static/media/quiz_background.afa68be9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a5c206c.js",
+    "static/js/2.294bc83c.chunk.js",
+    "static/css/main.61af356c.chunk.css",
+    "static/js/main.62400805.chunk.js"
+  ]
+}
